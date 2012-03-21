@@ -1,6 +1,7 @@
 = coffee-rails-asset_util
 
-Small util to make it easy to reference image assets from within a coffeescript file in Rails 3
+Small util to make it easy to reference image assets from within a coffeescript file in Rails 3.
+Inspired by: http://dennisreimann.de/blog/referencing-rails-assets-in-coffeescript/
 
 Global helper method: 
 
@@ -10,6 +11,12 @@ Use inside a coffescript file:
 
 file_icon = image_path('file.png')
 admin_icon = image_path('admin/user.png')
+
+== Rails config
+
+In your application.css manifest file
+
+ *= require coffee_rails_asset_util
 
 == Contributing to coffee-rails-asset_util
  
