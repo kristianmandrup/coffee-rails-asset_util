@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "coffee-rails-asset_util"
   gem.homepage = "http://github.com/kristianmandrup/coffee-rails-asset_util"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Reference Rails image assets from within a coffeescript file}
+  gem.description = %Q{Makes available a global helper method to reference image assets}
   gem.email = "kmandrup@gmail.com"
   gem.authors = ["Kristian Mandrup"]
   # dependencies defined in Gemfile
